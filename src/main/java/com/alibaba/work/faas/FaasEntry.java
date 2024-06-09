@@ -127,7 +127,7 @@ else {
 * 解密
 */
 String encryptContent = DESUtil.decrypt(content, password);
-System.out.println("解密后的字符串:" + encryptContent);
+System.out.println("解密后的字符串++++++:" + encryptContent);
 if (StringUtils.isEmpty(encryptContent)) {
 result.put("error", "empty string got!");
 return result;

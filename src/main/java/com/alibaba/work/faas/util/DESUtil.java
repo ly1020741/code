@@ -14,14 +14,7 @@ import javax.crypto.Cipher;
 public class DESUtil {
 private final static String DES = "DES";
 
-public static void main(String[] args) {
-String data = "我是6";
-String key = "wang!@#$%";
-String encryptStr = encrypt(data, key);
-System.out.println("加密后的字符串:" + encryptStr);
-String decryptStr = decrypt(encryptStr, key);
-System.out.println("解密后的字符串:" + decryptStr);
-}
+
 
 /**
 * Description 根据键值进行加密
