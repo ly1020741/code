@@ -17,6 +17,7 @@ import com.alibaba.work.faas.util.YidaConnectorUtil.ConnectorTypeEnum;
 import com.aliyun.dingtalkyida_1_0.models.BatchSaveFormDataRequest;
 
 import org.apache.commons.lang3.StringUtils;
+import com.alibaba.work.faas.util.DESUtil;
 
 /**
  * 您的业务逻辑请从此类开始
